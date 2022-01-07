@@ -1,0 +1,25 @@
+#qna {
+  display: none;
+}
+
+.qBox{
+  background-color: #E7FBBE;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.status {
+  width: 80%;
+  border-radius: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+.statusBar {
+  height: 100%;
+  border-radius: 20px;
+  background: rgb(255, 253, 222);
+  background: -webkit-linear-gradient(left, rgba(255, 253, 222, 1) 0%, rgba(231, 251, 190, 1) 44%, rgba(255, 203, 203, 1) 100%);
+  background: -o-linear-gradient(left, rgba(255, 253, 222, 1) 0%, rgba(231, 251, 190, 1) 44%, rgba(255, 203, 203, 1) 100%);
+  background: linear-gradient(to right, rgba(255, 253, 222, 1) 0%, rgba(231, 251, 190, 1) 44%, rgba(255, 203, 203, 1) 100%);
+}
