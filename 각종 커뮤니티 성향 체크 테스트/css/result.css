@@ -1,0 +1,11 @@
+#result{
+  display: none;
+  background-color: #FFFDDE;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.resultDesc{
+  font-size: 20px;
+}

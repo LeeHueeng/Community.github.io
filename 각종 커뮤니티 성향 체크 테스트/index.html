@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./css/default.css">
   <link rel="stylesheet" href="./css/qna.css">
   <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/result.css">
 
 </head>
 
@@ -39,16 +40,49 @@
         </div>
       </div>
       <div class="qBox mx-auto my-5 py-5 px-3"></div>
-      <div class="answerBox"></div>
+
+
+      <div class="answerBox mx-auto">
+        <div class="row row-cols-1 row-cols-md-2 g-2 ">
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top leftImage" src="./img/main.png" alt="Card image cap">
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top rightImge" src="./img/main.png" alt="Card image cap">
+
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
 
     <section id="result">
-    </section>
 
-    <script src="./js/start.js" charset="utf-8"></script>
-    <script src="./js/data.js" charset="utf-8"></script>
-  </div>
+      <section id="main" class="mx-auto mt-5 py-5 px-3">
+        <h1> 최적의 커뮤니티를 찾았습니다. </h1>
+        <div class="resultname">
+
+        </div>
+        <div id="resultImg" class="col-lg-6 col-md-8 col-sm-10 mx-auto my-5">
+        </div>
+        <div class="explain mx-auto py-3 px-3">
+          <div class="resultDesc">
+
+          </div>
+        </div>
+        <button type="button" class="btn btn-outline-primary mt-3">다시하기</button>
+
+
+      </section>
+
+      <script src="./js/start.js" charset="utf-8"></script>
+      <script src="./js/data.js" charset="utf-8"></script>
+</div>
 </body>
 
 </html>

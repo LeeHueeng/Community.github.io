@@ -23,3 +23,6 @@
   background: -o-linear-gradient(left, rgba(255, 253, 222, 1) 0%, rgba(231, 251, 190, 1) 44%, rgba(255, 203, 203, 1) 100%);
   background: linear-gradient(to right, rgba(255, 253, 222, 1) 0%, rgba(231, 251, 190, 1) 44%, rgba(255, 203, 203, 1) 100%);
 }
+.answerBox{
+  width: 80%;
+}
