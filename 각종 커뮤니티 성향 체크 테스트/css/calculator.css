@@ -1,0 +1,20 @@
+table {
+  border-collapse:collapse;
+  background-color:  #E7FBBE;
+  font-size : 30px;
+  border-radius: 20px;
+  border: 0;
+}
+td{
+  padding: 5px 10px;
+  text-align: center;
+}
+input {
+  border: none;
+  text-align: right;
+  border-radius: 20px;
+}
+
+input:focus{
+  outlin:none;
+}

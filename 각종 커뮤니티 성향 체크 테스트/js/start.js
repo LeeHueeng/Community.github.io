@@ -5,7 +5,6 @@ const endPoint = 12;
 const select = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 function calResult() {
-  console.log(select);
   var result = select.indexOf(Math.max(...select));
   return result;
 }
@@ -40,32 +39,6 @@ function goResult(){
 }
 
 
-/*
-function addAnswer(answerText, qIdx, idx) {
-  var a = document.querySelector('.answerBox');
-  var answer = document.createElement('button');
-  answer.classList.add('answerList');
-
-  a.appendChild(answer);
-  answer.innerHTML = answerText;
-
-  answer.addEventListener("click", function() {
-    var children = document.querySelectorAll('.answerList');
-    for (let i = 0; i < children.length; i++) {
-      children[i].disabled = true;
-      children[i].style.display = 'none';
-    }
-    setTimeout(() => {
-      var target = qnaList[qIdx].a[idx].type;
-      for(let i = 0; i < target.length; i++){
-        select[target[i]] += 1;
-      }
-
-      goNext(++qIdx);
-    }, 450)
-  }, false);
-}
-*/
 function imgeNext(qIdx, idx) {
   let leftImage = document.querySelector('.leftImage');
   let rightImge = document.querySelector('.rightImge');
@@ -85,12 +58,18 @@ function imgeNext(qIdx, idx) {
     if (qIdx + 1 === endPoint) {
       goResult();
       return;
-    } else {
+    }
+    else {
       setTimeout(() => {
-          console.log(select);
-        var target = qnaList[qIdx].a[idx].type;
-        for (let i = 0; i < target.length; i++) {
-          select[target[i]] += 1;
+
+      var target = qnaList[qIdx].a[idx].type;
+
+
+        for(let i = 0; i <= target.length; i++){
+                console.log(select);
+        select[target[i]] += 1;
+    
+
         }
         leftImage.style.display = 'none';
         rightImge.style.display = 'none';
@@ -103,17 +82,13 @@ function imgeNext(qIdx, idx) {
 
 }
 
-function goNext(qIdx) {
-  if (qIdx === endPoint) {
-    goResult();
-    return;
-  }
-
-
+function goNext(qIdx){
   var q = document.querySelector('.qBox');
   q.innerHTML = qnaList[qIdx].q;
+
   var status = document.querySelector('.statusBar');
   status.style.width = (100/endPoint) * (qIdx+1) + '%';
+  status.innerHTML = qIdx+1;
 
   let qnaURL = './img/question/0';
   let leftURL = qnaURL + '-A.png';
@@ -139,11 +114,8 @@ function goNext(qIdx) {
   rightImge.addEventListener("click", function() {
     imgeNext(qIdx, 1);
   }, false);
-  /*
-  for (let i in qnaList[qIdx].a) {
-    addAnswer(qnaList[qIdx].a[i].answer, qIdx, i);
-  }
-*/
+
+
 }
 
 function begin() {

@@ -66,6 +66,7 @@ function addAnswer(answerText, qIdx, idx){
       var target = qnaList[qIdx].a[idx].type;
       for(let i = 0; i < target.length; i++){
         select[target[i]] += 1;
+          console.log(select);
       }
 
       for(let i = 0; i < children.length; i++){
