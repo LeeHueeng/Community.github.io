@@ -10,11 +10,27 @@ table{
 th,td{
   padding-top: 15px;
   padding-bottom: 15px;
+  text-align: center;
+  width : 5%;
 }
 
-.day{
+.nowday ,.day{
   text-align: left;
   padding-left: 20px;
   padding-top: 2px;
   padding-bottom: 2px;
+}
+
+.lottobutton:hover{
+  background-color: black;
+  color: white;
+  border-linear: 30px;
+  border-color: rgba(255, 203, 203, 1);
+
+}
+.lottobutton{
+  background-color:rgba(255, 203, 203, 1);
+  border-radius: 20px;
+  border-linear: 30px;
+  border-color: black;
 }
