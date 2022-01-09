@@ -1,0 +1,20 @@
+.raffle{
+
+}
+table{
+  border : 1px solid red;
+  background-color: white;
+  width:40%;
+  height:80%;
+}
+th,td{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.day{
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
