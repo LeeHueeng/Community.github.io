@@ -1,20 +1,25 @@
 table {
-  border-collapse:collapse;
-  background-color:  #E7FBBE;
-  font-size : 30px;
+  border-collapse: collapse;
+  background-color: #E7FBBE;
+  font-size: 30px;
   border-radius: 20px;
   border: 0;
 }
-td{
+
+td {
   padding: 5px 10px;
+  width: 5%;
+  height: 5%;
   text-align: center;
 }
+
 input {
   border: none;
   text-align: right;
   border-radius: 20px;
+  width : 80%;
 }
 
-input:focus{
-  outlin:none;
+input:focus {
+  outlin: none;
 }
