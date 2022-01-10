@@ -1,0 +1,44 @@
+.resultpercent1, .result_1{
+  background-color: white;
+  border-radius: 20px;
+  height : 40px;
+  width : 100%;
+  border-color : black;
+  border :solid 1px;
+
+}
+
+.resultpercent, .result_2{
+  background-color: background: rgb(255, 253, 222);
+  background: -webkit-linear-gradient(left, rgba(255, 253, 222, 1) 0%, rgba(231, 251, 190, 1) 44%, rgba(255, 203, 203, 1) 100%);
+  background: -o-linear-gradient(left, rgba(255, 253, 222, 1) 0%, rgba(231, 251, 190, 1) 44%, rgba(255, 203, 203, 1) 100%);
+  background: linear-gradient(to right, rgba(255, 253, 222, 1) 0%, rgba(231, 251, 190, 1) 44%, rgba(255, 203, 203, 1) 100%);
+  border-radius: 25px;
+  height : 100%;
+  width : 0;
+
+}
+
+p{
+
+  font-size : 20px;
+  text-align: left;
+  margin-left: 20px;
+
+
+}
+
+td, tr {
+  text-align: center;
+  font-size : 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+
+.qna{
+  background-color: rgba(255, 203, 203, 1);
+  width : 100%;
+  border-radius: 20px;
+
+}
