@@ -1,0 +1,14 @@
+#screen{
+  display: none;
+}
+
+#end{
+  display: none;
+}
+table {
+  width: 100%;
+
+}
+table, td {
+  border : 1px solid red;
+}
