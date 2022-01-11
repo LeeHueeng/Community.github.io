@@ -7,7 +7,7 @@
 }
 
 
-#writing{
+#writing  {
   display : none;
   background-color: #FFFDDE;
   width: 80%;
@@ -15,4 +15,17 @@
   height : 100%;
   border-radius: 20px;
 
+}
+.sub{
+  width : 10%;
+  text-align: left;
+}
+.sub-2{
+  width: 80;
+}
+table{
+  width: 100%;
+}
+.qna{
+  width: 100%;
 }

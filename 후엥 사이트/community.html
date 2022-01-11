@@ -60,30 +60,63 @@
 
     <section id="writing" class="mx-auto mt-5 py-5 px-3">
       <h1 class="my-3">게시글 작성하기 </h1>
-      <textarea id="story" class="qna" name="story" rows="5" cols="33">
-문의사항이나 궁금한점을 적어주세요.
-        </textarea>
-      <form>
-        <div class="form-row my-5">
-          <div class="col my-2">
-            <input type="text" class="form-control" placeholder="닉네임">
-          </div>
-          <div class="col my-2">
-            <input type="text" class="form-control" placeholder="연락가능한 곳(이메일 전화번호 카카오톡 등 )">
-          </div>
 
 
-        <input type="password" class="form-control texxt my-2 inputPassword" id="inputPassword2" placeholder="글 수정을 위한 암호입력" value"">
-        <button type="botton" class="btn btn-primary mb-2">글 작성하기</button>
-        <button type="botton" class="btn btn-primary mb-2" onclick="rebegin()">작성 취소</button>
 
-      </form>
+      <div class="col my-5">
+        <table>
+          <td class="sub">
+            <p class="my-auto ">제목</p>
+          </td>
+          <td class="sub-2"><input type="text" class="form-control" id="title" placeholder="제목">
+          </td>
+        </table>
+      </div>
 
 
-        </div>
+      <table class="col my-5">
+        <td class="sub">
+          <p class="my-auto">내용</p>
+        </td>
+        <td class="sub-2">
+          <textarea id="story" class="qna" id="story" name="story" rows="5" cols="33" placeholder="문의사항이나 궁금한점을 적어주세요."></textarea>
+        </td>
+      </table>
+      <table class="col my-1">
+        <td class="sub">
+          <p class="my-auto">닉네임</p>
+        </td>
+        <td class="sub-2">
+          <input type="text" class="form-control" id="user" placeholder="닉네임">
+        </td>
+      </table>
+      <table class="col my-1">
+
+        <td class="sub">
+          <p class="my-auto">이메일</p>
+        </td>
+        <td class="sub-2">
+          <input type="text" class="form-control" id="email" placeholder="연락가능한 곳(이메일 전화번호 카카오톡 등 )">
+        </td>
+      </table>
+      <table class="col my-1">
+        <td class="sub">
+          <p class="my-auto">비밀번호</p>
+        </td>
+        <td class="sub-2">
+          <input type="password" class="form-control" id="inputPassword2" placeholder="글 수정을 위한 암호입력" value"">
+        </td>
+      </table>
 
 
-    </section>
+      <button type="button" class="btn btn-primary my-2">글 작성하기</button>
+      <button type="button" class="btn btn-primary my-2" onclick="rebegin()">작성 취소</button>
+
+
+  </div>
+
+
+  </section>
   </div>
   <script src="./js/community.js" charset="utf-8"></script>
 </body>
