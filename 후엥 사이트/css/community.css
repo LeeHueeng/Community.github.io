@@ -29,3 +29,12 @@ table{
 .qna{
   width: 100%;
 }
+
+.order, .names{
+  width: 20%;
+  text-align: center;
+}
+.titles{
+  width: 60%;
+  text-align: center;
+}
