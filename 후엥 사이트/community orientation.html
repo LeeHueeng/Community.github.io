@@ -34,36 +34,36 @@
 </head>
 
 <body>
-  <div class="mx-auto">
-    <nav class="navbar navbar-expand navbar-light bg-light">
-      <a class="navbar-brand px-5" href="./index.html">Hueeng</a>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">Hueeng</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
             <a class="nav-link" href="./community.html">제작요청 & 건의사항</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/Lee-hyeonu/desktop-tutorial/tree/main/%ED%9B%84%EC%97%A5%20%EC%82%AC%EC%9D%B4%ED%8A%B8">Github(페이지 자료 모두 공개)</a>
+          </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               내가 만든것들
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="./calculator.html">자바스크립트 계산기</a></li>
               <li><a class="dropdown-item" href="./lotto.html">로또 번호 추첨기</a></li>
               <li><a class="dropdown-item" href="./percentage.html">확률계산기</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="./community orientation.html">나에게 맞는 커뮤니티 찾기(제작중)</a></li>
+              <li><a class="dropdown-item" href="./cooki.html">쿠키런 킹덤 가챠 해보기</a></li>
+
             </ul>
           </li>
-
         </ul>
-
       </div>
-    </nav>
-
-  </div>
+    </div>
+  </nav>
   <div class="container">
     <section id="main" class="mx-auto mt-5 py-5 px-3">
       <h1> 내게 맞는 커뮤니티는? </h1>
@@ -125,7 +125,7 @@
 
 
       </section>
-
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       <script src="./js/start.js" charset="utf-8"></script>
       <script src="./js/data.js" charset="utf-8"></script>
   </div>

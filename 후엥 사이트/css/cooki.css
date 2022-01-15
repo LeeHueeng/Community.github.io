@@ -1,0 +1,54 @@
+table {
+  width: 100%;
+  text-align: center;
+}
+
+.img {
+  width: 100px;
+}
+
+.money_title {
+  text-align: left;
+  width: 50%;
+  font-weight: normal
+}
+
+.money_input {
+  text-align: center;
+  width: 50%;
+}
+
+input {
+  width: 100%;
+}
+
+.line {
+  height: 2px;
+}
+
+#second {
+  display: none;
+  background-color: #FFFDDE;
+  width: 90%;
+  text-align: center;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.result {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.result_1 {
+  width: 60px;
+  border: 1px solid black;
+}
+
+.result_2 {
+  width: 30%;
+}
+.result_3 {
+  border: 1px solid black;
+}

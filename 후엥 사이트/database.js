@@ -5,7 +5,7 @@ const database = {
 }
 Object.keys(database).forEach((key) => {
   database[key] = [
-    ...database[key], 
+    ...database[key],
     ...csvToJson.fieldDelimiter(',')
       .getJsonFromCsv(`./data/${key}.csv`)
   ]

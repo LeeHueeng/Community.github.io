@@ -4,8 +4,8 @@
 table{
   border : 1px solid red;
   background-color: white;
-  width:40%;
-  height:80%;
+  width:300px;
+  height:481px;
 }
 th,td{
   padding-top: 15px;
