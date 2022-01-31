@@ -26,3 +26,11 @@
 .answerBox{
   width: 80%;
 }
+.answerList {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: block;
+  width: 80%;
+  border: 0px;
+  font-size: 20px;
+}
